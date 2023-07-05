@@ -1,0 +1,13 @@
+
+
+/*contenue de la page */
+.page{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/*image de la page d'acceuil a changer*/
+.page img{
+    width: 60%;
+    height: 60%;
+}

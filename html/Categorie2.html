@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style_categorie.css" />
+        <link rel="shortcut icon" type="image/png" href="img/logo.png" />
+        <script type="text/javascript" src="js/script.js"></script>
+        <title>Le Vestiaire Du Foot</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo.png" alt="logo" />
+                <h1>Le Vestiaire<br/>Du Foot</h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li class="bouton"><a href="index.html">Accueil</a></li>
+                    <li class="bouton"><a href="#">Nos Produits</a>
+                        <ul>
+                            <li><a href="Categorie1.html">Chaussures</a></li>
+                            <li><a href="Categorie2.html">Vêtements</a></li>
+                            <li><a href="Categorie3.html">Equipements</a></li>
+                        </ul>
+                    </li>
+                    <li class="bouton"><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <ul class="interaction">
+                <li class=""><a href="">Connexion</a></li>
+                <li class=""><a href="">Panier</a></li>
+            </ul>
+
+        </header>
+
+        <input type="button"   value="Stock" id="afficherStock" onclick="toggle_text()"/>
+        <div class="page">
+            <div class="item1">
+                <div><p><img src="img/bas_survet.jpeg" alt="Bas survetement" id="img1" onclick="zoomImg('img1')"/></p></div>
+                <div><p>Pentalon de survetement<br/>ref : x0315</p></div>
+                <div><p>94.99€ </p></div>
+                <div class="passeCommande">
+                    <input type="button"   value="-"   onclick="down('commande1')" />
+                    <input type="number"   value=""  id="commande1" class="commande" min="0" />
+                    <input type="button"   value="+"  onclick="up('commande1')" />
+                    <div class="ajoutPanier"><input type="button"   value="Ajout au Panier"/></div>
+                </div>
+                <div><p class="stock">stock : <span id="commande1Stock">14</span></p></div>
+            </div>
+            <div class="item1">
+                <div><p><img src="img/haut_survet.jpeg" alt="Haut survetement" id="img2" onclick="zoomImg('img2')" /></p></div>
+                <div><p>Chaussures de football pour terrain gras<br/>ref : x0316</p></div>
+                <div><p>94.99€ </p></div>
+                <div class="passeCommande">
+                    <input type="button"   value="-"   onclick="down('commande2')" />
+                    <input type="number"   value=""  id="commande2" class="commande" min="0" />
+                    <input type="button"   value="+"  onclick="up('commande2')" />
+                    <div class="ajoutPanier"><input type="button"   value="Ajout au Panier"/></div>
+                </div>
+                <div><p class="stock">stock : <span id="commande2Stock">14</span></p></div>
+            </div>
+            <div class="item1">
+                <div><p><img src="img/short.jpeg" alt="Chaussures vissées" id="img3" onclick="zoomImg('img3')"/></p></div>
+                <div><p>Chaussures de football pour terrain gras<br/>ref : x0317</p></div>
+                <div><p>94.99€ </p></div>
+                <div class="passeCommande">
+                    <input type="button"   value="-"   onclick="down('commande3')" />
+                    <input type="number"   value=""  id="commande3" class="commande" min="0" />
+                    <input type="button"   value="+"  onclick="up('commande3')" />
+                    <div class="ajoutPanier"><input type="button"   value="Ajout au Panier"/></div>
+                </div>
+                <div><p class="stock">stock : <span id="commande3Stock">14</span></p></div>
+
+            </div>
+            <div class="item1">
+                <div><p><img src="img/maillot.jpeg" alt="Chaussures vissées" id="img4" onclick="zoomImg('img4')" /></p></div>
+                <div><p>Chaussures de football pour terrain gras<br/>ref : x0318</p></div>
+                <div><p>94.99€ </p></div>
+                <div class="passeCommande">
+                    <input type="button"   value="-"   onclick="down('commande4')" />
+                    <input type="number"   value=""  id="commande4" class="commande" min="0" />
+                    <input type="button"   value="+"  onclick="up('commande4')" />
+                    <div class="ajoutPanier"><input type="button"   value="Ajout au Panier"/></div>
+                </div>
+                <div><p class="stock">stock : <span id="commande4Stock">14</span></p></div>
+            </div>
+            <div class="item1">
+                <div><p><img src="img/chaussettes.jpeg" alt="Chaussures vissées" id="img5" onclick="zoomImg('img5')"/></p></div>
+                <div><p>Chaussures de football pour terrain gras<br/>ref : x0319</p></div>
+                <div><p>94.99€ </p></div>
+                <div class="passeCommande">
+                    <input type="button"   value="-"   onclick="down('commande5')" />
+                    <input type="number"   value=""  id="commande5" class="commande" min="0" />
+                    <input type="button"   value="+"  onclick="up('commande5')" />
+                    <div class="ajoutPanier"><input type="button"   value="Ajout au Panier"/></div>
+                </div>
+                <div><p class="stock">stock : <span id="commande5Stock">14</span></p></div>
+            </div>
+           
+        </div>
+
+        <footer>
+            <p>Copyright Projet<br/>WebMaster Chautard Corentin et Francois Enzo</p>
+        </footer>
+    </body>
+</html>

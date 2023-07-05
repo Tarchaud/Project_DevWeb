@@ -1,0 +1,55 @@
+
+
+
+/*contenue de la page */
+.page{
+    margin-top: 50px;
+    padding-left: 10%;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+
+/*Pour les box des produit*/
+.item1{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 10px;
+
+}
+
+.item1 img{
+    height: 180px;
+    -ms-transform: none; 
+    -webkit-transform: none; 
+    transform: none;
+}
+.item1 img:hover{
+    cursor:zoom-in;    
+}
+
+.stock{
+    display: none;
+}
+
+.commande{
+    width: 50px
+}
+
+.passeCommande{
+    margin-bottom: 10px;
+    
+}
+
+.ajoutPanier{
+    margin-top: 5px;
+}
+
